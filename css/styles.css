@@ -22,6 +22,10 @@ body {
 	margin: 0;
 }
 
+h2 {
+	margin: 0;
+}
+
 button {
 	background-color: #3882F6;
 	border: none;
@@ -113,10 +117,16 @@ button {
 
 #showcase {
 	background-color: #fff;
-	font-family: "Roboto", sans-serif;
-	font-weight: normal;
 	padding: 5% 10%;
 	text-align: center;
+}
+
+#showcase h2 {
+	color: #1F2937;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 30px;
 }
 
 #showcase .wrapper {
@@ -132,18 +142,52 @@ button {
 	width: 100px;
 }
 
-#showcase h2 {
-	margin-top: 0;
-}
-
 #testimonials {
 	background-color: #E5E7EB;
+	padding: 7% 30%;
+}
+
+.quote {
+	color: #1F2937;
 	font-family: "Roboto", sans-serif;
 	font-weight: thin;
 	font-style: italic;
-	padding: 10%;
+	font-size: 20px;
+}
+
+.author {
+	float: right;
 }
 
 #cta {
+	background-color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	padding: 5% 18%;
+}
 
+.cta-wrapper {
+	background-color: #3882F6;
+	border-radius: 5px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-text {
+	margin: 3% 5%;
+}
+
+#cta button {
+	border: 2px solid white;
+}
+
+footer {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	margin: 2% 0;
+	text-align: center;
 }
