@@ -42,7 +42,7 @@ button {
 	margin: 0;
 }
 
-/* NAV */
+/***** NAV *****/
 
 .nav-main {
 	display: flex;
@@ -74,7 +74,7 @@ a {
 	font-size: 18px;
 	text-decoration: none;
 	padding: 18px;
-	width: 28%;
+	width: 30%;
 }
 
 a:hover {
@@ -82,17 +82,17 @@ a:hover {
 	color: #1F2937;
 }
 
-/* main */
+/***** Main *****/
 
 #welcome {
 	display: flex;
-	justify-content: center;
-	padding: 10% 15%;
+	justify-content: space-between;
+	padding: 8% 15%;
 }
 
 #welcome div {
-	/* min-height: 250px; */
-	width: 45%;
+	height: 250px;
+	width: 48%;
 	overflow: hidden;
 }
 
@@ -108,11 +108,10 @@ a:hover {
 }
 
 #welcome img {
-	/* transform: translate(0, -50px); */
 	width: 100%;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
 	#welcome img {
 			transform: translate(0, -50px);
 	}
