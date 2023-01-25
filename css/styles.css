@@ -24,7 +24,7 @@
 body {
 	background-color: #1F2937;
 	font-family: "Roboto", sans-serif;
-	font-weight: normal;
+	/* font-weight: normal; */
 	margin: 0;
 }
 
@@ -134,19 +134,32 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-#showcase .wrapper {
+.flex-wrap {
 	display: flex;
 	justify-content: center;
 	gap: 40px;
 }
 
+.showcase-pair {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	width: 100px;
+}
+
 .showcase-img {
 	border: 2px solid #3882F6;
 	border-radius: 10%;
-	height: 100px;
-	width: 100px;
+	height: inherit;
+	width: inherit;
 	transition-duration: 500ms;
-	transform: scale(1)
+	transform: scale(1);
+}
+
+.showcase-text {
+	/* font-weight: normal;
+	font-size: 10px; */
+	width: 100%;
 }
 
 .showcase-img:hover {
@@ -159,6 +172,11 @@ a:hover {
 	object-fit: cover;
 	height: 100px;
 	width: 100px;
+}
+
+.showcase-text {
+	font-weight: normal;
+	font-size: 5px;
 }
 
 #testimonials {
