@@ -26,6 +26,10 @@ body {
 	margin: 0;
 }
 
+main {
+	margin-top: 90px;
+}
+
 h1 {
 	font-size: 48px;
 }
@@ -55,11 +59,15 @@ a:hover {
 
 /***** NAV *****/
 
-.nav-main {
+nav {
+	background-color: #1F2937;
 	border-bottom: 1px solid #E5E7EB;
 	display: flex;
 	justify-content: space-around;
 	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-left {

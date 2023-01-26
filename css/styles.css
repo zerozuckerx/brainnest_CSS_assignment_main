@@ -28,6 +28,16 @@ body {
 	margin: 0;
 }
 
+main {
+	margin-top: 60px;
+}
+
+footer {
+	color: #fff;
+	font-size: 14px;
+	margin: 2% 0;
+	text-align: center;
+}
 
 h1 {
 	color: #F9FAF8;
@@ -74,24 +84,21 @@ button {
 	width: 100px;
 }
 
-footer {
-	color: #fff;
-	font-size: 14px;
-	margin: 2% 0;
-	text-align: center;
-}
-
 .m0 {
 	margin: 0;
 }
 
 /***** NAV *****/
 
-.nav-main {
+nav {
+	background-color: #1F2937;
 	border-bottom: 1px solid #E5E7EB;
 	display: flex;
 	justify-content: space-around;
 	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-left {
