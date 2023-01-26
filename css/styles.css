@@ -88,10 +88,10 @@ footer {
 /***** NAV *****/
 
 .nav-main {
+	border-bottom: 1px solid #E5E7EB;
 	display: flex;
 	justify-content: space-around;
 	height: 60px;
-	border-bottom: 1px solid #E5E7EB;
 }
 
 .nav-left {
@@ -149,6 +149,7 @@ footer {
 
 .flex-wrap {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 40px;
 }
