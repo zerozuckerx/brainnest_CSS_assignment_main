@@ -185,6 +185,9 @@ nav {
 }
 
 .showcase-text {
+	font-weight: normal;
+	font-size: 15px;
+	margin-top: 10px;
 }
 
 .showcase-pair img {
@@ -192,11 +195,6 @@ nav {
 	object-fit: cover; /* maintain aspect ratio and fill box */
 	height: inherit;
 	width: inherit;
-}
-
-.showcase-text {
-	font-weight: normal;
-	font-size: 5px;
 }
 
 #testimonials {
